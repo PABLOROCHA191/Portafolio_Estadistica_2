@@ -1,0 +1,138 @@
+head:
+  title: "PABLO JOSE ROCHA MADRID"
+
+# showcase
+showcase:
+  enable: true
+  title: "HOLA,mucho gusto soy PABLO JOSÉ ROCHA MADRID."
+  subtitle: "ESTUDIANTE DE INGENIERÍA ELECTRÓNICA."
+  description: "Estudiante de último semestre de Ingeniería Electrónica de la Universidad del Magdalena."
+  image:
+    x: "img/showcase/new.gif"
+    _2x: "img/showcase/new.gif"
+  imageMobile:
+    x: "img/showcase/new.gif"
+    _2x: "img/showcase/new.gif"
+
+  button:
+    icon: "icon-mail-fill"
+    btnText: "Contacto PABLO ROCHA"
+    URL: "mailto:pablorocha320@gmail.com"
+
+  socialLinks:
+    
+    - icon: "youtube"
+      URL: "https://www.youtube.com"
+
+    - icon: "instagram"
+      URL: "https://www.instagram.com"
+
+    - icon: "facebook"
+      URL: "https://www.facebook.com"
+
+
+# about
+about:
+  enable: true
+  title: "¿Quien soy?"
+  content: 
+    <p class="lead">
+    <strong>Joven apasionado por la tecnología, deportes y la investigación.</strong> Entregado a mi futura profesión, familia y amigos
+    . 
+    </p>
+    <p class="lead">
+    <strong>Mi area.</strong> Estudiante de la especialización de desarrollo de software en la Universidad del Magdalena, una vez culminada mi carrera de ingeniería me gustaría especializarme en esta rama de la programación.
+    </p>
+ 
+  image:
+    x: "img/who-am-i/jose1.jpeg"
+    _2x: "img/who-am-i/jose1.jpeg"
+
+# experience
+experience:
+  enable: true
+  title: "Experiencia"
+  description: "Actualmente solo cuento con la experiencia adquirida a través de los años en el programa y diferentes cursos online que he realizado, en Coursera y Cisco networking academy, Senatic, Udemy y Platzi."
+  
+    
+  items:
+    - title: "CNNAv7 Introduction to Networks"
+      company: "Cisco Networking Academy"
+      duration: "2024-2024"
+
+    - title: "Certificado profesional de Analista de ciberseguridad de Microsoft"
+      company: "Microsoft"
+      duration: "2023-2024"
+      
+    - title: "Fundamentos de la ciberseguridad"
+      company: "Google"
+      duration: "2023-2024"
+      
+  
+# education
+education:
+  enable: true
+  title: "ESTUDIOS"
+  items:
+    - university: "Universidad del Magdalena"
+      year: "2017-Actualidad"
+      degree: "Ingeniero Electrónico"
+
+    - university: "Institución Educativa Tecnica departamental de Cabrera (INSTEDEC)"
+      year: "2015-2016"
+      degree: "Bachiller técnico agropecuario con énfasis en ecología"
+
+
+# Referencias
+testimonial:
+  enable: true
+  title: "Referencias"
+  items:
+  
+    - name: "Jose Alfredo de la Hoz"
+      position: "Ingeniero Electrónico Universidad del Magdalena, Santa Marta (Magdalena)"
+      content: "Excelente amigo y compañero en diversos proyectos a lo largo de los años en la carrera"
+      image:
+        x: "img/testimonials/alfredo noriega.jpeg"
+        _2x: "img/testimonials/alfredo noriega.jpeg"
+        
+    - name: "Amet Jose Jimenez"
+      position: "Ingeniero Electrónico Universidad del Magdalena, Santa Marta (Magdalena)"
+      content: "Excelente amigo y compañero de trabajo en proyectos de desarrollo de software, en frontend y backend"
+      image:
+        x: "img/testimonials/alfredo noriega.jpeg"
+        _2x: "img/testimonials/alfredo noriega.jpeg"    
+        
+
+# contact
+contact:
+  enable: true
+  title: "Contacto Pablo José Rocha Madrid"
+    
+  image:
+    x: "img/who-am-i/jose1.jpeg"
+    _2x: "img/who-am-i/jose1.jpeg"
+    
+  button:
+    icon: "icon-mail-fill"
+    btnText: "Send Message"
+    btnAction: 'mailto:pablorocha320@gmail.com'
+    
+  phone:
+    title: "Phone Number"
+    number: "3007224112"
+  email:
+    title: "Email"
+    email: '<a href="mailto:your-email@gmail.com">pablorocha320@gmail.com</a>'
+  address:
+    title: "Address"
+    address: "Cabrera Magdalena (Barrio 20 de Julio) Kra. 7-259"
+  
+
+# newsletter
+newsletter:
+  enable: false
+  title: "Newsletter subscription"
+  success_message: "Successfully subscribed"
+  error_message: "Error while subscribing."
+  note: "We'll never share your email with anyone else."
