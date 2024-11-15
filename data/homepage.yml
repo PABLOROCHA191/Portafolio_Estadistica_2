@@ -4,15 +4,15 @@ head:
 # showcase
 showcase:
   enable: true
-  title: "HOLA,mucho gusto soy PABLO JOSÉ ROCHA MADRID."
-  subtitle: "ESTUDIANTE DE INGENIERÍA ELECTRÓNICA."
+  title: "HOLA,mucho gusto, soy Pablo José Rocha Madrid"
+  subtitle: "Estudiante de Ingeniería Electrónica"
   description: "Estudiante de último semestre de Ingeniería Electrónica de la Universidad del Magdalena."
   image:
-    x: "img/showcase/new.gif"
-    _2x: "img/showcase/new.gif"
+    x: "img/showcase/Gif.webp"
+    _2x: "img/showcase/Gif.webp"
   imageMobile:
-    x: "img/showcase/new.gif"
-    _2x: "img/showcase/new.gif"
+    x: "img/showcase/Gif.webp"
+    _2x: "img/showcase/Gif.webp"
 
   button:
     icon: "icon-mail-fill"
@@ -20,7 +20,12 @@ showcase:
     URL: "mailto:pablorocha320@gmail.com"
 
   socialLinks:
-    
+    - icon: "linkedin"
+      URL: "https://www.linkedin.com/in/pablo-jos%C3%A9-rocha-madrid-1778aa30b?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3B0ZSMsT4FSvSq4sW9RLICdw%3D%3D"
+
+    - icon: "github"
+      URL: "https://github.com/PABLOROCHA191"
+
     - icon: "youtube"
       URL: "https://www.youtube.com"
 
@@ -29,6 +34,8 @@ showcase:
 
     - icon: "facebook"
       URL: "https://www.facebook.com"
+
+
 
 
 # about
@@ -41,77 +48,158 @@ about:
     . 
     </p>
     <p class="lead">
-    <strong>Mi area.</strong> Estudiante de la especialización de desarrollo de software en la Universidad del Magdalena, una vez culminada mi carrera de ingeniería me gustaría especializarme en esta rama de la programación.
+    <strong>Mi area:</strong> Estudiante de la especialización de desarrollo de software en la Universidad del Magdalena, una vez culminada mi carrera de ingeniería me gustaría especializarme en esta rama de la programación.
     </p>
- 
+  button:
+    icon: "icon-smile-fill"
+    btnText: "Más sobre mí"
+    URL: "https://www.linkedin.com"
   image:
-    x: "img/who-am-i/jose1.jpeg"
-    _2x: "img/who-am-i/jose1.jpeg"
+    x: "img/who-am-i/Pablo.jpg"
+    _2x: "img/who-am-i/Pablo.jpg"
 
 # experience
 experience:
   enable: true
   title: "Experiencia"
   description: "Actualmente solo cuento con la experiencia adquirida a través de los años en el programa y diferentes cursos online que he realizado, en Coursera y Cisco networking academy, Senatic, Udemy y Platzi."
-  
-    
+  button:
+    icon: "icon-linkedin-fill"
+    btnText: "Linkedin"
+    URL: "https://www.linkedin.com/"
+  button2:
+    icon: "icon-profile-fill"
+    btnText: "Download My Resume"
+    URL: "#"
+
   items:
     - title: "CNNAv7 Introduction to Networks"
       company: "Cisco Networking Academy"
-      duration: "2024-2024"
+      duration: "2024 - 2024"
 
     - title: "Certificado profesional de Analista de ciberseguridad de Microsoft"
       company: "Microsoft"
-      duration: "2023-2024"
+      duration: "2023 - 2024"
       
     - title: "Fundamentos de la ciberseguridad"
       company: "Google"
-      duration: "2023-2024"
-      
-  
+      duration: "2023 - 2024"
+
 # education
 education:
   enable: true
   title: "ESTUDIOS"
   items:
     - university: "Universidad del Magdalena"
-      year: "2017-Actualidad"
+      year: "2017 - Actualidad"
       degree: "Ingeniero Electrónico"
 
     - university: "Institución Educativa Tecnica departamental de Cabrera (INSTEDEC)"
-      year: "2015-2016"
+      year: "2015 - 2016"
       degree: "Bachiller técnico agropecuario con énfasis en ecología"
 
 
-# Referencias
+
+# Client & Work
+client_and_work:
+  title: "Portafolio"
+  enable: true
+  
+  enable_clients: false
+  clients:
+    - logo:
+        x: "img/clients/asgardia.png"
+        _2x: "img/clients/asgardia@2x.png"
+      alt: "Asgardia"
+
+    - logo:
+        x: "img/clients/earth-2.png"
+        _2x: "img/clients/earth-2@2x.png"
+      alt: "Earth 2.0"
+
+    - logo:
+        x: "img/clients/goldline.png"
+        _2x: "img/clients/goldline@2x.png"
+      alt: "Goldline"
+
+    - logo:
+        x: "img/clients/kanba.png"
+        _2x: "img/clients/kanba@2x.png"
+      alt: "Kanba"
+
+    - logo:
+        x: "img/clients/zoo-tv.png"
+        _2x: "img/clients/zoo-tv@2x.png"
+      alt: "Zoo"
+
+    - logo:
+        x: "img/clients/ztos.png"
+        _2x: "img/clients/ztos@2x.png"
+      alt: "Ztos"
+
+  works:
+    - title: "Actividades dentro del programa"
+      description: "Durante mi formación en Ingeniería Electrónica en la Universidad del Magdalena, complemento mis estudios con actividades deportivas, promoviendo un equilibrio entre el desarrollo académico y el bienestar físico, haciendo parte de la selección masculina de Futsal del programa de Ingeniería Electrónica."
+      button:
+        icon: "icon-arrow-right"
+        btnText: "Ver más"
+        URL: "https://business-science.shinyapps.io/sales_dashboard_demand_forecast/"
+      image:
+        x: "img/works/Sala.jpg"
+        _2x: "img/works/Sala.jpg"
+      is_even: true
+
+    - title: "Datos destacados"
+      description: "Formé parte de la primera visita del programa de Ingeniería Electrónica a la subestación eléctrica más importante de la región, una experiencia clave para fortalecer mi formación técnica en sistemas de potencia.
+      Fui el primer ganador del concurso de cultura general de la Universidad del Magdalena, destacándome por mis conocimientos y habilidades interdisciplinarias."
+      button:
+        icon: "icon-arrow-right"
+        btnText: "Ver más"
+        URL: "https://business-science.shinyapps.io/cannondale_price_prediction_app/"
+      image:
+        x: "img/works/General 2.jpg"
+        _2x: "img/works/General 2.jpg"
+      is_even: false
+
+    
+
+# testimonial
 testimonial:
   enable: true
-  title: "Referencias"
+  title: "Aportes al Programa"
   items:
   
-    - name: "Jose Alfredo de la Hoz"
-      position: "Ingeniero Electrónico Universidad del Magdalena, Santa Marta (Magdalena)"
-      content: "Excelente amigo y compañero en diversos proyectos a lo largo de los años en la carrera"
+    - name: "Asociación de estudiantes de Ingeniería Electrónica (AEIE)"
+      position: "Líder del área de deportes"
+      content: "Soy el líder del área de deportes de la Asociación de Estudiantes del programa de Ingeniería Electrónica en la Universidad del Magdalena, coordinando actividades deportivas y fomentando el espíritu de equipo entre mis compañeros."
       image:
-        x: "img/testimonials/alfredo noriega.jpeg"
-        _2x: "img/testimonials/alfredo noriega.jpeg"
+        x: "img/testimonials/Logo 1.png"
+        _2x: "img/testimonials/Logo 1.png"
         
-    - name: "Amet Jose Jimenez"
-      position: "Ingeniero Electrónico Universidad del Magdalena, Santa Marta (Magdalena)"
-      content: "Excelente amigo y compañero de trabajo en proyectos de desarrollo de software, en frontend y backend"
+    - name: "IEEE"
+      position: "Miembro del comité de logistica"
+      content: "Hago parte del comité de logística de la IEEE, contribuyendo en la organización y planificación de eventos y actividades que promueven el desarrollo profesional y académico en el ámbito de la ingeniería."
       image:
-        x: "img/testimonials/alfredo noriega.jpeg"
-        _2x: "img/testimonials/alfredo noriega.jpeg"    
-        
+        x: "img/testimonials/IEEE 3.webp"
+        _2x: "img/testimonials/IEEE 3.webp"
+
+    
+
+    - name: "Ingeniería Electrónica"
+      position: "Monitor particular de circuitos"
+      content: "Monitor académico de la rama de circuitos, apoyando a mis compañeros en su aprendizaje y comprensión de los conceptos clave en esta área de la ingeniería electrónica."
+      image:
+        x: "img/testimonials/Logo 2.png"
+        _2x: "img/testimonials/Logo 2.png"
 
 # contact
 contact:
   enable: true
-  title: "Contacto Pablo José Rocha Madrid"
+  title: "Pablo Rocha"
     
   image:
-    x: "img/who-am-i/jose1.jpeg"
-    _2x: "img/who-am-i/jose1.jpeg"
+    x: "img/who-am-i/Pablo 3.jpg"
+    _2x: "img/who-am-i/Pablo 3.jpg"
     
   button:
     icon: "icon-mail-fill"
@@ -120,13 +208,13 @@ contact:
     
   phone:
     title: "Phone Number"
-    number: "3007224112"
+    number: "+57 3243296889"
   email:
     title: "Email"
     email: '<a href="mailto:your-email@gmail.com">pablorocha320@gmail.com</a>'
   address:
     title: "Address"
-    address: "Cabrera Magdalena (Barrio 20 de Julio) Kra. 7-259"
+    address: "Cabrera Magdalena - Barrio 20 de Julio"
   
 
 # newsletter
